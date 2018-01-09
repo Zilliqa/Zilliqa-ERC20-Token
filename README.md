@@ -1,6 +1,8 @@
 # Zilliqa Token Generation 
 Preminted tokens are allocated to early \& community contributors, company, team and agencies. Detailed can be found in our blog post at https://blog.zilliqa.com/more-details-on-zilliqas-token-generation-event-4e1b78e0cf5a.  
 
+Our token generation smart contracts have already been audited by [ChainSecurity](http://chainsecurity.com/) and 
+[Zero Knowledge Labs](http://zklabs.io/). The audit reports can be found in the folder named `audit-report`.
 
 ## Deployment Flow
 
@@ -57,5 +59,5 @@ There are 2 flags, pausedPublic and pausedOwnerAdmin.
 
 
 ## Use of zeppelin code
-We use open-zepplin code for `SafeMath`, `Ownable` and `StandardToken` logic.
+We use open-zepplin code for `SafeMath`, `Ownable`, `StandardToken` and `Pausable` logic.
 
