@@ -5,6 +5,15 @@ Our token generation smart contracts have already been audited by [ChainSecurity
 [Zero Knowledge Labs](http://zklabs.io/). The audit reports can be found at 
 https://docs.zilliqa.com/ChainSecurity-Zilliqa-Audit.pdf and https://docs.zilliqa.com/ZKLabs-Zilliqa-Audit.pdf or in the folder named `audit-reports`.
 
+## Compiling the contracts
+
+Make sure you have [npm](https://www.npmjs.com/get-npm) and [truffle](http://truffleframework.com/) installed. Then you can compile the contracts using
+
+```bash
+npm install
+truffle compile
+```
+
 ## Deployment Flow
 
 - Deploy `ZilliqaToken.sol`. The listing can be done by a standard private key or a multi-sig key, which is the owner of the contract. The Zilliqa token, inheriting from custom PausableToken, gets deployed by this contract. An admin account address and the total amount of tokens are passed and used to initialize the Zilliqa token. Token transfers are initially only allowed for the owner of the contract and admin account.
