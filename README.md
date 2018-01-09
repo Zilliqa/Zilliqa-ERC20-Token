@@ -3,7 +3,7 @@ Preminted tokens are allocated to early \& community contributors, company, team
 
 Our token generation smart contracts have already been audited by [ChainSecurity](http://chainsecurity.com/) and 
 [Zero Knowledge Labs](http://zklabs.io/). The audit reports can be found at 
-https://docs.zilliqa.com/ChainSecurity-Zilliqa-Audit.pdf and https://docs.zilliqa.com/ChainSecurity-Zilliqa-Audit.pdf or in the folder named `audit-report`.
+https://docs.zilliqa.com/ChainSecurity-Zilliqa-Audit.pdf and https://docs.zilliqa.com/ZKLabs-Zilliqa-Audit.pdf or in the folder named `audit-report`.
 
 ## Deployment Flow
 
