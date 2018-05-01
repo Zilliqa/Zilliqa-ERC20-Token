@@ -11,6 +11,7 @@
   "dependencies": {
     "bignumber": "^1.1.0",
     "bignumber.js": "^4.1.0",
+    "hoek": "^5.0.3",
     "truffle": "^4.0.1",
     "truffle-hdwallet-provider": "0.0.3",
     "zeppelin-solidity": "^1.4.0"
